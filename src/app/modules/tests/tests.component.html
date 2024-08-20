@@ -1,0 +1,12 @@
+<p>tests works!</p>
+
+<!-- <ng-container>asd</ng-container> -->
+
+<app-toggle-button label="Active" [(value)]="isActive"></app-toggle-button>
+<app-toggle-button
+  label="Active2"
+  [value]="isActive2"
+  (valueChange)="onActive2Change($event)"
+>
+</app-toggle-button>
+<button (click)="submit()">Click</button>
